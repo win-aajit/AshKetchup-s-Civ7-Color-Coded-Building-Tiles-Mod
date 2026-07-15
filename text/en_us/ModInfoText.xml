@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+    <Row Tag="LOC_ACB_MOD_NAME">
+      <Text>Ashketchup's Color-Coded Building Tiles</Text>
+    </Row>
+    <Row Tag="LOC_ACB_MOD_DESCRIPTION">
+      <Text>Adds a color-coded decoration that highlights tiles with buildings, grouped by their strongest yield: green=food, blue=science, gray=production, purple=culture, yellow=gold, orange=happiness.</Text>
+    </Row>
+  </EnglishText>
+</Database>

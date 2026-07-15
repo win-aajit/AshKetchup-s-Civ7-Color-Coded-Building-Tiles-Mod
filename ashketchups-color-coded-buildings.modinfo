@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ashketchups-color-coded-buildings" version="1" xmlns="ModInfo">
+  <Properties>
+    <Name>LOC_ACB_MOD_NAME</Name>
+    <Description>LOC_ACB_MOD_DESCRIPTION</Description>
+    <Authors>AshKetchup</Authors>
+    <Package>Mod</Package>
+    <ShowInBrowser>1</ShowInBrowser>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <Version>0.3.0</Version>
+  </Properties>
+  <Dependencies>
+    <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="always">
+      <AlwaysMet/>
+    </Criteria>
+  </ActionCriteria>
+  <ActionGroups>
+    <ActionGroup id="acb-shell" scope="shell" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UIScripts>
+          <Item>ui/options/acb-options.js</Item>
+        </UIScripts>
+        <UpdateText>
+          <Item>text/en_us/ModInfoText.xml</Item>
+          <Item>text/en_us/InGameText.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="acb-game" scope="game" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UIScripts>
+          <Item>ui/options/acb-options.js</Item>
+          <Item>ui/lenses/acb-layer.js</Item>
+        </UIScripts>
+        <UpdateText>
+          <Item>text/en_us/InGameText.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+  </ActionGroups>
+  <LocalizedText>
+    <File>text/en_us/ModInfoText.xml</File>
+  </LocalizedText>
+</Mod>
