@@ -7,3 +7,5 @@ There are options in the addons menu to customize the opacity level of fill colo
 Color is currently based on the highest yield type of a tile with a building on it.
 
 Works with ToT 1.4.0
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3742572641
